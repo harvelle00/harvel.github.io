@@ -8,7 +8,7 @@ const axios = require('axios');
 const urlencodedParser = bodyParser.urlencoded({ extended: false })
 
 app.post('/', urlencodedParser, function(req,res) {
-    let client_secret = '6NsQTKvaUhfOVANkXZ5Eve2JrzczYFuv';
+    let client_secret = 'XXXX';
     let data = req.body.data;
 
 
